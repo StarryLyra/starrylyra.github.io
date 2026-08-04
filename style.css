@@ -50,3 +50,25 @@ footer {
     font-size: 0.9em;
     color: #6b6b6b;
 }
+
+#lang-toggle {
+    background-color: transparent;
+    border: 1px solid #b8763e;
+    color: #b8763e;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.intro-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lang-toggle:hover {
+    background-color: #b8763e;
+    color: #ffffff;
+}
