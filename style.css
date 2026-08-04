@@ -42,3 +42,11 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+footer {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 1px solid #e0dcd3;
+    font-size: 0.9em;
+    color: #6b6b6b;
+}
