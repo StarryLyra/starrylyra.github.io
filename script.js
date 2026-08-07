@@ -15,3 +15,7 @@ button.addEventListener("click", function() {
         el.textContent = el.dataset[currentLang];
     });
 });
+
+const emailUser = "svberg";
+const emailDomain = "xs4all.nl";
+document.getElementById("email-link").href = "mailto:" + emailUser + "@" + emailDomain;
