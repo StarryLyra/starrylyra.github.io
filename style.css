@@ -80,7 +80,7 @@ footer {
 }
 
 .social-links a {
-  color: inherit;       /* volgt je bestaande tekstkleur */
+  color: inherit;       /* volgt de bestaande tekstkleur */
   opacity: 0.75;
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
