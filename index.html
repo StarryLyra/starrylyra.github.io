@@ -19,15 +19,22 @@
             <h2 data-nl="Projecten" data-en="Projects">Projecten</h2>
             <article>
                 <h3>Book Tracker Database</h3>
-                <p data-nl="Een PostgreSQL database om mijn leesgeschiedenis bij te houden, met een custom schema en queries. Gebouwd als eindproject voor CS50 SQL, met data uit mijn eigen Goodreads-bibliotheek (200+ boeken)." data-en="A PostgreSQL database to track my reading history, with a custom schema and queries. Built as a final project for CS50 SQL, using data from my own Goodreads library (200+ books).">
-                    Een PostgreSQL database om mijn leesgeschiedenis bij te houden, met een custom schema en queries. Gebouwd als eindproject voor CS50 SQL, met data uit mijn eigen Goodreads-bibliotheek (200+ boeken).</p>
+                <p 
+                    data-nl=
+                        "Goodreads houdt bij wat je hebt gelezen, maar geeft weinig inzicht in leespatronen of onafgemaakte series. Deze PostgreSQL database importeert mijn volledige Goodreads-bibliotheek (200+ boeken) in een custom schema, met queries en views die bijvoorbeeld tonen welke boekenseries ik nog niet heb afgemaakt of hoe mijn leesgedrag zich over tijd ontwikkelt. Eindproject voor CS50 SQL, inclusief schema-ontwerp, queries en documentatie (DESIGN.md)." 
+                        data-en=
+                            "Goodreads tracks what you've read, but offers little insight into reading patterns or unfinished series. This PostgreSQL database imports my full Goodreads library (200+ books) into a custom schema, with queries and views that surface things like which book series I haven't finished yet, or how my reading habits have changed over time. Built as the final project for CS50 SQL, including schema design, queries, and documentation (DESIGN.md).">
+                    Goodreads houdt bij wat je hebt gelezen, maar geeft weinig inzicht in leespatronen of onafgemaakte series. Deze PostgreSQL database importeert mijn volledige Goodreads-bibliotheek (200+ boeken) in een custom schema, met queries en views die bijvoorbeeld tonen welke boekenseries ik nog niet heb afgemaakt of hoe mijn leesgedrag zich over tijd ontwikkelt. Eindproject voor CS50 SQL, inclusief schema-ontwerp, queries en documentatie (DESIGN.md).</p>
                 <a href="https://github.com/StarryLyra/book-tracker" data-nl="Bekijk op GitHub" data-en="View on GitHub">Bekijk op GitHub</a>
             </article>
 
             <article>
                 <h3>RNA sequencing QC analysis</h3>
-                <p data-nl="Een QC-tool voor RNA-seq data: controleert library size, detection rate en PCA-outliers, en genereert een overzichtelijk HTML-rapport." data-en="A QC tool for RNA-seq data: checks library size, detection rate, and PCA outliers, and generates a clear HTML report.">
-                    Een QC-tool voor RNA-seq data: controleert library size, detection rate en PCA-outliers, en genereert een overzichtelijk HTML-rapport.
+                <p data-nl=
+                        "In RNA-seq analyse leiden slechte samples (te lage library size, technische outliers) tot onbetrouwbare resultaten verderop in de pipeline, vaak pas zichtbaar nadat er al veel rekentijd in is gestoken. Deze tool automatiseert de kwaliteitscontrole die normaal handmatig gebeurt: hij toetst library size en detection rate tegen instelbare drempelwaarden en identificeert PCA-outliers, en genereert een leesbaar HTML-rapport zodat onderzoekers in één oogopslag zien welke samples verdacht zijn vóór ze verder gaan met de analyse. Gebouwd in Python met gesimuleerde testdata om de logica te valideren." 
+                    data-en=
+                        "In RNA-seq analysis, poor-quality samples (low library size, technical outliers) can compromise results downstream, often only becoming apparent after significant compute time has already been invested. This tool automates the quality control process that's normally done manually: it checks library size and detection rate against configurable thresholds and identifies PCA outliers, generating a readable HTML report so researchers can spot suspect samples at a glance before continuing their analysis. Built in Python, with simulated test data used to validate the logic.">
+                    In RNA-seq analyse leiden slechte samples (te lage library size, technische outliers) tot onbetrouwbare resultaten verderop in de pipeline — vaak pas zichtbaar nadat er al veel rekentijd in is gestoken. Deze tool automatiseert de kwaliteitscontrole die normaal handmatig gebeurt: hij toetst library size en detection rate tegen instelbare drempelwaarden en identificeert PCA-outliers, en genereert een leesbaar HTML-rapport zodat onderzoekers in één oogopslag zien welke samples verdacht zijn vóór ze verder gaan met de analyse. Gebouwd in Python met gesimuleerde testdata om de logica te valideren.
                 </p>
                 <a href="https://github.com/StarryLyra/rnaseq-qc-checker" data-nl="Bekijk op GitHub" data-en="View on GitHub">Bekijk op GitHub</a>
             </article>
