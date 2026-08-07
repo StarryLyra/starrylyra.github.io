@@ -75,7 +75,7 @@ footer {
 
 .social-links {
   display: flex;
-  gap: 16px;
+  gap: 24px;
   margin: 12px 0 24px;
 }
 
@@ -88,4 +88,9 @@ footer {
 .social-links a:hover {
   opacity: 1;
   transform: translateY(-1px);
+}
+
+.social-links svg {
+  width: 26px;
+  height: 26px;
 }
