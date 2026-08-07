@@ -72,3 +72,20 @@ footer {
     background-color: #b8763e;
     color: #ffffff;
 }
+
+.social-links {
+  display: flex;
+  gap: 16px;
+  margin: 12px 0 24px;
+}
+
+.social-links a {
+  color: inherit;       /* volgt je bestaande tekstkleur */
+  opacity: 0.75;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.social-links a:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
