@@ -1,15 +1,46 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>freeCodeCamp</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <h1>Welcome to freeCodeCamp's Lessons!</h1>
-    <p>Let's have some fun learning about Git and GitHub!</p>
-  </body>
-</html>
+# Hoi, ik ben Starry 👋
 
-# starrylyra.github.io
-# hi everyone!
+Data analist in wording, met een achtergrond in biomedische wetenschappen. Gebaseerd in Groningen, Nederland.
+
+## Over mij
+
+Ik werk als onderzoeker/analist bij het UMCG en ben bezig met de overstap naar data/BI-analist rollen. Mijn toolkit groeit met SQL, Python, R, Power BI, vaak zelf-geleerd naast mijn werk.
+
+## Skills
+
+- **Talen & tools:** SQL, Python, R
+- **BI & visualisatie:** Power BI
+- **Overig:** PostgreSQL, database design
+
+## Projecten
+
+Bekijk mijn portfolio: [starrylyra.github.io](https://starrylyra.github.io)
+
+## Te vinden op
+
+[GitHub](https://github.com/StarryLyra)
+
+---
+
+# Hi, I'm Starry 👋
+
+Aspiring data analyst, with a background in biomedical sciences. Based in Groningen, the Netherlands.
+
+## About me
+
+I work as a researcher/analyst at UMCG and am currently transitioning toward data/BI analyst roles. My toolkit is growing with SQL, Python, R, Power BI, mostly self-taught alongside my work.
+
+## Skills
+
+- **Languages & tools:** SQL, Python, R
+- **BI & visualization:** Power BI
+- **Other:** PostgreSQL, database design
+
+## Projects
+
+Check out my portfolio: [starrylyra.github.io](https://starrylyra.github.io)
+
+## Find me on
+
+[GitHub](https://github.com/StarryLyra)
 
