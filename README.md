@@ -1,15 +1,15 @@
-# Hoi, ik ben Starry 👋
+# Hoi, ik ben Stella 👋
 
 Data analist in wording, met een achtergrond in biomedische wetenschappen. Gebaseerd in Groningen, Nederland.
 
 ## Over mij
 
-Ik werk als onderzoeker/analist bij het UMCG en ben bezig met de overstap naar data/BI-analist rollen. Mijn toolkit groeit met SQL, Python, R, Power BI, vaak zelf-geleerd naast mijn werk.
+Ik werk als onderzoeksanalist bij het UMCG, afdeling van Hematologie, en ben bezig met de overstap naar data-analist rollen. Mijn toolkit groeit met SQL, Python, R, Power BI, zelf-geleerd naast mijn werk.
 
 ## Skills
 
 - **Talen & tools:** SQL, Python, R
-- **BI & visualisatie:** Power BI
+- **Visualisatie:** Power BI
 - **Overig:** PostgreSQL, database design
 
 ## Projecten
@@ -22,18 +22,18 @@ Bekijk mijn portfolio: [starrylyra.github.io](https://starrylyra.github.io)
 
 ---
 
-# Hi, I'm Starry 👋
+# Hi, I'm Stella 👋
 
 Aspiring data analyst, with a background in biomedical sciences. Based in Groningen, the Netherlands.
 
 ## About me
 
-I work as a researcher/analyst at UMCG and am currently transitioning toward data/BI analyst roles. My toolkit is growing with SQL, Python, R, Power BI, mostly self-taught alongside my work.
+I work as a researcher/analyst at UMCG, department of Hematology, and am currently transitioning toward data analyst roles. My toolkit is growing with SQL, Python, R, and Power BI, self-taught alongside my work.
 
 ## Skills
 
 - **Languages & tools:** SQL, Python, R
-- **BI & visualization:** Power BI
+- **Visualization:** Power BI
 - **Other:** PostgreSQL, database design
 
 ## Projects
@@ -43,4 +43,3 @@ Check out my portfolio: [starrylyra.github.io](https://starrylyra.github.io)
 ## Find me on
 
 [GitHub](https://github.com/StarryLyra)
-
