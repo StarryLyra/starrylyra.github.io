@@ -72,12 +72,10 @@ footer {
     background-color: #b8763e;
     color: #ffffff;
 }
-<<<<<<< HEAD
-=======
 
 .social-links {
   display: flex;
-  gap: 24px;
+  gap: 26px;
   margin: 12px 0 24px;
 }
 
@@ -93,8 +91,8 @@ footer {
 }
 
 .social-links svg {
-  width: 26px;
-  height: 26px;
+  width: 32px;
+  height: 32px;
 }
 
 .tags {
@@ -215,4 +213,3 @@ body.en .lang-nl {
 body.en .lang-en {
     display: block;
 }
->>>>>>> 052f526b708c59b8c02e77ec5e4f7705059903e5
