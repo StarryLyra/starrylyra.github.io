@@ -2,44 +2,213 @@
 <html lang="nl">
     <head>
         <meta charset="UTF-8">
-        <title>Starry — Portfolio</title>
+        <title>Stella van Bergen — Portfolio</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <section id="intro">
             <div class="intro-header">
-                <h1 data-nl="Starry" data-en="Starry">Starry</h1>
+                <h1 data-nl="Stella van Bergen" data-en="Stella van Bergen">Stella van Bergen</h1>
                 <button id="lang-toggle">EN</button>
             </div>
-            <p data-nl="Data analist in wording, met een achtergrond in biomedische wetenschappen." data-en="Aspiring data analyst, with a background in biomedical sciences.">
-                Data analist in wording, met een achtergrond in biomedische wetenschappen.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/stella-van-bergen-5a11b375/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6">
+                    <rect x="3" y="3" width="18" height="18" rx="2"/>
+                    <line x1="8" y1="10" x2="8" y2="17"/>
+                    <circle cx="8" cy="6.8" r="0.9" fill="currentColor" stroke="none"/>
+                    <path d="M12 17v-4.5c0-1.4 1-2.3 2.2-2.3s2 .9 2 2.3V17"/>
+                    <line x1="12" y1="10" x2="12" y2="17"/>
+                    </svg>
+                </a>
+
+                <a href="https://github.com/StarryLyra" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6">
+                    <path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.5 0-.24-.01-1.04-.01-1.89-2.78.62-3.37-1.21-3.37-1.21-.46-1.19-1.11-1.51-1.11-1.51-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.95.68 1.92 0 1.39-.01 2.51-.01 2.85 0 .28.18.6.69.5A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/>
+                </svg>
+                </a>
+
+                <a href="#" id="email-link" aria-label="E-mail">
+                    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.3">
+                        <rect x="3" y="5" width="18" height="14" rx="2"/>
+                        <path d="M3 7l9 6 9-6"/>
+                    </svg>
+                </a>
+                <a href="cv-starry-van-bergen.pdf" target="_blank" rel="noopener" aria-label="CV / Resume">
+                    <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.3">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <path d="M14 2v6h6"/>
+                        <text x="12" y="17" text-anchor="middle" font-size="7" font-weight="600" stroke="none" fill="currentColor" font-family="inherit">CV</text>
+                    </svg>
+                </a>
+            </div>
+            <h4 data-nl="Biomedisch wetenschapper | SQL, Python & Data-analyse"
+                data-en="Biomedical Scientist | SQL, Python & Data Analysis">
+                Biomedisch wetenschapper | SQL, Python & Data-analyse
+            </h4>
+            <p data-nl="Naast mijn werk ontwikkel ik mij actief in programmeren en data-analyse. Ik werk aan eigen projecten in SQL en Python om praktische ervaring op te doen met databases, data-analyse en datavisualisatie. Met dit portfolio laat ik zien wat ik heb geleerd en gebouwd." data-en="Alongside my work, I am actively developing my skills in programming and data analysis. I work on personal projects using SQL and Python to gain practical experience with databases, data analysis, and data visualization. Through this portfolio, I showcase what I have learned and built.">
+                Naast mijn werk ontwikkel ik mij actief in programmeren en data-analyse. Ik werk aan eigen projecten in SQL en Python om praktische ervaring op te doen met databases, data-analyse en datavisualisatie. Met dit portfolio laat ik zien wat ik heb geleerd en gebouwd.</p>
         </section>
 
         <section id="projects">
             <h2 data-nl="Projecten" data-en="Projects">Projecten</h2>
             <article>
-                <h3>Book Tracker Database</h3>
-                <p data-nl="Een PostgreSQL database om mijn leesgeschiedenis bij te houden, met een custom schema en queries. Gebouwd als eindproject voor CS50 SQL, met data uit mijn eigen Goodreads-bibliotheek (200+ boeken)." data-en="A PostgreSQL database to track my reading history, with a custom schema and queries. Built as a final project for CS50 SQL, using data from my own Goodreads library (200+ books).">
-                    Een PostgreSQL database om mijn leesgeschiedenis bij te houden, met een custom schema en queries. Gebouwd als eindproject voor CS50 SQL, met data uit mijn eigen Goodreads-bibliotheek (200+ boeken).</p>
-                
-            </article>
-            
-            <article>
-                <h3>Celestial Bodies</h3>
-                <p data-nl="Een PostgresQL database die planeten en manen in ons zonnestelsel bijhoudt." data-en="A PostgresQL database that tracks planets and moons in our solar system.">
-                    Een PostgresQL database die planeten en manen in ons zonnestelsel bijhoudt.</p>
-                <a href="https://github.com/StarryLyra/Celestial-Bodies" data-nl="Bekijk op GitHub" data-en="View on GitHub">Bekijk op GitHub</a>
+                <div class = "project-card">
+                    <div class="project-image-container">
+                        <img src="Plaatjes/Book_database_erdiagram.png" alt="ER-diagram van de Book Tracker database" class="project-image erdiagram">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-inner">
+                            <h3 class="project-title">Book Tracker Database</h3>
+                            <div class="tags">
+                                <span>PostgreSQL</span>
+                                <span>SQL</span>
+                                <span>Database Design</span>
+                            </div>
+                            <p class="project-description">
+                                <span class="lang-nl">
+                                    <strong>Goodreads houdt bij wat je hebt gelezen, maar biedt weinig inzicht in onafgemaakte series.</strong> Voor mijn CS50 SQL-eindproject bouwde ik daarom een PostgreSQL-database met 200+ boeken uit mijn eigen bibliotheek.
+                                </span>
+
+                                <span class="lang-en">
+                                    <strong>Goodreads tracks what you have read, but provides limited insight into unfinished series.</strong> For my CS50 SQL final project, I built a PostgreSQL database using 200+ books from my own library.
+                                </span>
+                            
+                                <h4 class="lang-nl">Wat ik heb gebouwd</h4>
+                                <h4 class="lang-en">What I built</h4>
+                            </p>
+
+                            <ul class="project-takeaways">
+                                <span class="lang-nl">
+                                    <li><strong>Datamodel:</strong> many-to-many relaties opgelost met junction tables (BOOK_AUTHORS, BOOK_GENRES)</li>
+                                    <li><span class="tag">unread_sequels</span><strong> view:</strong> detecteert automatisch ongelezen vervolgdelen via JOIN op series_order</li>
+                                    <li><strong>Documentatie:</strong> ontwerpkeuzes en querylogica vastgelegd</li>
+                                    <li><strong>Praktijkvraag:</strong> "Hoeveel onafgemaakte series heb ik" &rightarrow; 5</li>
+                                </span>
+
+                                <span class="lang-en">
+                                    <li><strong>Data model:</strong> many-to-many relationships resolved with junction tables (BOOK_AUTHORS, BOOK_GENRES)</li>
+                                    <li><span class="tag">unread_sequels</span><strong> view:</strong> automatically detects unread sequels via JOIN on series_order</li>
+                                    <li><strong>Documentation:</strong> design choices and query logic documented</li>
+                                    <li><strong>Practical question:</strong> "How many unfinished series do I have?" &rightarrow; 5</li>
+                                </span>
+                            </ul>
+
+                            <div class="project-links">
+                                <a href="https://github.com/StarryLyra/book-tracker" data-nl="Bekijk op GitHub" data-en="View on GitHub" class="btn-link">
+                                    Bekijk op GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
             </article>
 
             <article>
-                <h3>Cardiovascular Risk Dashboard</h3>
-                <p data-nl="Een Power BI dashboard over cardiovasculair risico, gebouwd op een Kaggle-dataset met klinische en leefstijlfactoren. Binnenkort beschikbaar." data-en="A Power BI dashboard over cardiovascular risk, built on a Kaggle dataset with clinical and lifestyle factors. Coming soon.">
-                    Een Power BI dashboard over cardiovasculair risico, gebouwd op een Kaggle-dataset met klinische en leefstijlfactoren. Binnenkort beschikbaar.</p>
+                <div class = "project-card">
+                    <div class="project-image-container">
+                        <img src="Plaatjes/RNA HTML.png" alt="RNA-seq QC Checker PCA example" class="project-image rnaseq">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-inner">
+                            <h3 class="project-title">RNA-seq QC Checker</h3>
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Data Analysis</span>
+                            </div>
+                            <p class="project-description">
+                                <span class="lang-nl">
+                                    <strong>Kwaliteitscontrole van RNA-seq data gebeurt vaak handmatig en inconsistent.</strong> Ik bouwde daarom een Python-tool die counts-matrices automatisch controleert op kwaliteitsproblemen, met een overzichtelijk HTML-rapport als output.
+                                </span>
+
+                                <span class="lang-en">
+                                    <strong>RNA-seq data quality control is often manual and inconsistent.</strong> I built a Python tool that automatically checks counts matrices for quality issues, producing a clear HTML report as output.
+                                </span>
+                            
+                                <h4 class="lang-nl">Wat ik heb gebouwd</h4>
+                                <h4 class="lang-en">What I built</h4>
+                            </p>
+
+                            <ul class="project-takeaways">
+                                <span class="lang-nl">
+                                    <li><strong>Library size-controle:</strong> detecteert samples met afwijkend lage sequencing-diepte</li>
+                                    <li><strong>Detection rate-check:</strong> signaleert samples met een ongewoon laag aantal gedetecteerde genen</li>
+                                    <li><strong>PCA-outlierdetectie:</strong> identificeert samples die statistisch afwijken van de rest van de dataset</li>
+                                    <li><strong>Praktijkvraag:</strong> "Hoeveel van de test-samples werden als outlier gemarkeerd?" &rightarrow; 1 van de 5</li>
+                                </span>
+
+                                <span class="lang-en">
+                                    <li><strong>Library size-controle:</strong> flags samples with unusually low sequencing depth</li>
+                                    <li><strong>Detection rate-check:</strong> flags samples with an unusually low number of detected genes</li>
+                                    <li><strong>PCA-outlierdetectie:</strong> identifies samples that statistically deviate from the rest of the dataset</li>
+                                    <li><strong>Practical question:</strong> "How many test samples were flagged as outliers?" &rightarrow; 1 of 5</li>
+                                </span>
+                            </ul>
+
+                            <div class="project-links">
+                                <a href="https://github.com/StarryLyra/rnaseq-qc-checker" data-nl="Bekijk op GitHub" data-en="View on GitHub" class="btn-link">
+                                    Bekijk op GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
             </article>
-        </section>
-        <footer>
-            <p><span data-nl="Te vinden op" data-en="Find me on">Te vinden op</span> <a href="https://github.com/StarryLyra">GitHub</a></p>
-        </footer>
+
+                        <article>
+                <div class = "project-card">
+                    <div class="project-image-container">
+                        <img src="Plaatjes/Cardiovascular risk dashboard overview page.png" alt="Cardiovascular risk dashboard overview page" class="project-image cardio">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-inner">
+                            <h3 class="project-title">Cardiovascular Risk Dashboard</h3>
+                            <div class="tags">
+                                <span>Power BI</span>
+                                <span>Power Query</span>
+                                <span>Healthcare Analytics</span>
+                            </div>
+                            <p class="project-description">
+                                <span class="lang-nl">
+                                    <strong>Cardiovasculair risico is complex, maar wordt vaak samengevat in één simpel getal.</strong> Voor dit project bouwde ik een Power BI-dashboard dat cardiovasculair risico inzichtelijk maakt op basis van 70.000 records uit een publieke Kaggle-dataset.
+                                </span>
+
+                                <span class="lang-en">
+                                    <strong>Cardiovascular risk is complex, but is often summarized into a single simple number.</strong> For this project, I built a Power BI dashboard that makes cardiovascular risk visible based on 70,000 records from a public Kaggle dataset.
+                                </span>
+                            
+                                <h4 class="lang-nl">Wat ik heb gebouwd</h4>
+                                <h4 class="lang-en">What I built</h4>
+                            </p>
+
+                            <ul class="project-takeaways">
+                                <span class="lang-nl">
+                                    <li><strong>Gewogen risicoscore:</strong> berekend op basis van klinische risicofactoren, onderbouwd door ACC/AHA-richtlijnen</li>
+                                    <li><strong>Vijf dashboardpagina's:</strong> van populatie-overzicht tot individuele risicoprofielen</li>
+                                    <li><strong>Power Query en interactieve filters:</strong> data-transformatie met Power Query, met filters voor exploratie per leeftijdsgroep, geslacht of risicofactor</li>
+                                    <li><strong>Praktijkvraag:</strong> "Welke risicofactor maakt het grootste verschil?" &rightarrow; cholesterol (76% vs 44%)</li>
+                                </span>
+
+                                <span class="lang-en">
+                                    <li><strong>Weighted risk score:</strong> calculated from clinical risk factors, grounded in ACC/AHA guidelines</li>
+                                    <li><strong>Five dashboard pages:</strong> from population overview to individual risk profiles</li>
+                                    <li><strong>Power Query and interactive filters:</strong> data transformation using Power Query, with filters for exploring by age group, gender, or risk factor</li>
+                                    <li><strong>Practical question:</strong> "Which risk factor makes the biggest difference?" &rightarrow; cholesterol (76% vs 44%)</li>
+                                </span>
+                            </ul>
+
+                            <div class="project-links">
+                                <a href="https://github.com/StarryLyra/cardiovascular-risk-dashboard" data-nl="Bekijk op GitHub" data-en="View on GitHub" class="btn-link">
+                                    Bekijk op GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </article>
+
+        </section>    
         <script src="script.js"></script>
     </body>
 </html>
